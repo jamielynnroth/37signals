@@ -190,8 +190,9 @@ a {color: #336699;
 }
 
 #logo {
-	width: 175;
-	text-align: center;
+	width: 175px;
+	margin-left:auto;
+	margin-right:auto;
 }
 #logo img {
 	padding-top: 30px;
@@ -260,6 +261,44 @@ a {color: #336699;
 .cards a {
 	text-decoration: underline;
 }
+
+
+
+#title_basecamp, #title_highrise, #title_campfire {
+	display:none;
+}
+
+#title_basecamp h1, #title_highrise h1, #title_campfire h1 {
+	font-size: 46px;
+}
+
+#title_basecamp p, #title_highrise p, #title_campfire p {
+	font-size: 15px;
+	font-family: "Lucida Grande";
+	line-height: 22.5px;
+}
+
+#title_basecamp img {
+	position:absolute;
+	top: 175px;
+	left: 230px;
+	z-index: 100;
+}
+
+#title_highrise img {
+	position:absolute;
+	top: 175px;
+	left: 445px;
+	z-index: 100;
+}
+
+#title_campfire img {
+	position:absolute;
+	top: 175px;
+	left: 525px;
+	z-index: 100;
+}
+
 
 #basecamp p {
 	font-family: "Lucida Grande";
